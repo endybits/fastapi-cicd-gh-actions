@@ -9,6 +9,6 @@ test:
 	python -m pytest -vv *_test.py
 
 format:
-	black *.py app/*.py
+	black *.py ./app/*.py
 
 all: install lint test format
