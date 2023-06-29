@@ -10,6 +10,6 @@ test:
 	python -m pytest -vv *_test.py
 
 format:
-	black *.py app/*.py
+	black *.py /home/runner/work/fastapi-cicd-gh-actions/fastapi-cicd-gh-actions/app/*.py
 
 all: install lint test format
