@@ -20,8 +20,3 @@ jobs:
       - name: Requirements and tests
         run: |
           make all
-      - name: Freeze
-        run: |
-          pip freeze
-      - run: pwd
-      - run: python3 app/hello.py
