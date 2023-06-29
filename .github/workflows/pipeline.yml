@@ -23,4 +23,5 @@ jobs:
       - name: Freeze
         run: |
           pip freeze
-      - run: python3 app/hello.py
+      - run: pwd
+      - run: python3 fastapi-cicd-gh-actions/app/hello.py
