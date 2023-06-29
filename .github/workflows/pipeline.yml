@@ -1,0 +1,20 @@
+name: Deployment Pipeline
+# When the action will be activated
+on:
+  push:
+    branches:
+      - master
+
+# What activities or jobs will be executed 
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # Fetch only the root files
+          sparse-checkout: .
+      - name: List fetched files
+        run: |
+          ls -al
+      
