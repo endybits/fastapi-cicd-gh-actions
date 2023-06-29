@@ -14,3 +14,5 @@ jobs:
         run: |
           echo "Current date:"
           date
+      - name: Next job please!
+        run: echo "Starting the next job"
