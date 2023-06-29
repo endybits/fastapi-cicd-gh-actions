@@ -17,4 +17,9 @@ jobs:
       - name: List fetched files
         run: |
           ls -al
-      
+      - name: Install requirements
+        run: |
+          make install
+      - name: Freeze
+        run: |
+          pip freeze

@@ -1,6 +1,6 @@
 [![Deployment Pipeline](https://github.com/endybits/fastapi-cicd-gh-actions/actions/workflows/pipeline.yml/badge.svg)](https://github.com/endybits/fastapi-cicd-gh-actions/actions/workflows/pipeline.yml)
 
-# fastapi-cicd-gh-actions
+# FastAPI CI/CD Github Actions
 A guide for adopt the best practices for develop Python projects using Github Actions.
 
 ## Github Actions
