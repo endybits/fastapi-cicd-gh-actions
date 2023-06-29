@@ -23,3 +23,4 @@ jobs:
       - name: Freeze
         run: |
           pip freeze
+      - run: python3 app/hello.py
