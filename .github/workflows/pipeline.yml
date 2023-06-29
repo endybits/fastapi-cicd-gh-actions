@@ -8,12 +8,12 @@ on:
 # What activities or jobs will be executed 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
-          # Fetch only the root files
-          sparse-checkout: .
+          # 
+          fetch-depth: 0
       - name: List fetched files
         run: |
           ls -al
